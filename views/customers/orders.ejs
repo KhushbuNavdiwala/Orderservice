@@ -1,0 +1,42 @@
+<section class="orders light-section"></section>
+<div class="container mx-auto pt-12">
+    <h1 class="front-bold text-lg mb-4">ALL ORDERS</h1>
+    <% if(messages.success) { %>
+    <div id="sucess-alert" class="flex items-center bg-green-500 text-white text-small
+     font-bold px-4 py-3" role="alert">
+
+        <p><%= messages.success %></p>
+     </div>
+     <% }%>
+     <table class="w-full table-auto bg-white">
+
+            <thead>
+                    <tr>
+
+                            <th class="px-4 py-2 text-left">Orders</th>
+                             <th class="px-4 py-2 text-left">Address</th>
+                             <th class="px-4 py-2 text-left">Time</th>
+                    </tr>
+
+            </thead>
+            <tbody>
+                        <% if(result.length)  { %>
+
+                        <% result.forEach((result) => { %>
+                            <tr>
+                                <td class="border px-4 py-2">
+                                <a class="link" href="/customers/orders/<%= result._id  %>"><%= result._id  %></a>
+                                </td>
+    
+                                 <td class="border px-4 py-2"><%= result.address  %></td>
+                                  <td class="border px-4 py-2"><%= moment(result.createdAt).format('hh:mm A')  %></td>
+                        </tr> 
+                        <%  }) %>
+                    
+                        <%  } else { %>
+
+                           <tr> <td class="p-4"><span>No Orders Founds!</span></td></tr>
+                          <% }  %>
+            </tbody>
+     </div>
+     </section>

@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "5eee651f739f8c674fd736ee"
+  },
+  
+  "paymantType": "COD",
+  "name": "Creamy Garlic Salad dressing",
+  "image": "img1.jpg",
+  "price": "250",
+  "size": "small",
+  "phone":"10246779956",
+  "address":"schul-18"
+  
+},{
+
+  "_id": {
+    "$oid": "5eee6671a27a66807cf2bea2"
+  },  
+  "paymantType": "COD",
+   "name": "Treeline cheese-spread",
+  "image": "img3.jpg",
+  "price": "200",
+  "size": "small",
+  "phone":"1125663359",
+  "address":"chemnitz"
+}]

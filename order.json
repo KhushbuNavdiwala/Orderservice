@@ -1,0 +1,67 @@
+[{
+  "_id": {
+    "$oid": "5eee651f739f8c674fd736ee"
+  },
+  "name": "Creamy Garlic Salad dressing",
+  "image": "img1.jpg",
+  "price": "250",
+  "size": "small"
+},{
+  "_id": {
+    "$oid": "5eee6671a27a66807cf2bea2"
+  },
+  "name": "Nuts for cheese",
+  "image": "img2.jpg",
+  "price": "300",
+  "size": "medium"
+},{
+  "_id": {
+    "$oid": "5eee6692a27a66807cf2bea3"
+  },
+  "name": "Treeline cheese-spread",
+  "image": "img3.jpg",
+  "price": "200",
+  "size": "small"
+},{
+  "_id": {
+    "$oid": "5eee66a5a27a66807cf2bea4"
+  },
+  "name": "Nona vegan sauces",
+  "image": "img4.jpg",
+  "price": "500",
+  "size": "large"
+  },{
+  "_id": {
+    "$oid": "5eee66a5a27a66807cf2bea5"
+  },
+  "name": "Nona AAlfredo sauces",
+  "image": "img5.jpg",
+  "price": "500",
+  "size": "large"
+  },{
+  "_id": {
+    "$oid": "5eee66a5a27a66807cf2bea6"
+  },
+  "name": "Nuttin cheese spread",
+  "image": "img6.jpg",
+  "price": "500",
+  "size": "large"
+  },{
+  "_id": {
+    "$oid": "5eee66a5a27a66807cf2bea7"
+  },
+  "name": "Soya Milk",
+  "image": "img7.png",
+  "price": "500",
+  "size": "large"
+  },{
+  "_id": {
+    "$oid": "5eee66a5a27a66807cf2bea8"
+  },
+  "name": "Coconut Milk",
+  "image": "img8.jpg",
+  "price": "500",
+  "size": "large"
+  
+
+}]
